@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fbf6ec;
+  color: #2a251f;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid #b0623b;
+  outline-offset: 2px;
+}
+
+/* subtle repeating mehndi lattice used behind select sections */
+.mehndi-bg-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgba(76, 107, 79, 0.14) 1px, transparent 0);
+  background-size: 22px 22px;
+}
