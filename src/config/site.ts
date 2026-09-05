@@ -16,13 +16,13 @@ export const siteConfig = {
   },
 
   contact: {
-    email: "hello@hennaartacademy.com",
+    email: "hello@babyartacademy.com",
     phone: "+91 8601387883",
     whatsapp: "+91 8601387883",
     whatsappLink: "https://wa.me/918601387883",
-    instagram: "https://instagram.com/hennaartacademy",
-    facebook: "https://facebook.com/hennaartacademy",
-    youtube: "https://youtube.com/@hennaartacademy",
+    instagram: "https://instagram.com/babyartacademy",
+    facebook: "https://facebook.com/babyartacademy",
+    youtube: "https://youtube.com/@babyartacademy",
     address: "Studio 4, Near Sub-District, Padrauna Road, Khadda",
   },
 
@@ -194,13 +194,13 @@ export const siteConfig = {
     },
     {
       name: "Fatima Khan",
-      photo: "/testimonials/fatima.jpg",
+      photo: "/testimonials/fatima khan.png",
       rating: 5,
       text: "I started taking small bookings from friends after Module 9. The bridal section alone was worth the price.",
     },
     {
       name: "Neha Verma",
-      photo: "/testimonials/neha.jpg",
+      photo: "/testimonials/Neha verma.png",
       rating: 5,
       text: "I loved how each lesson built on the last one. Nothing felt rushed and I could always go back and rewatch.",
     },
